@@ -365,3 +365,4 @@ app.listen(3000);
 <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
 
 服务器端就到public/bootstrap/css/目录中寻找bootstrap.css文件。
+
