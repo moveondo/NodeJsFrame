@@ -24,7 +24,7 @@
 
 #### requst对象
 
-### 搭建HTTPs服务器
+#### 搭建HTTPS服务器
 
 ### [项目开发实例](https://github.com/moveondo/NodeJs-Express/tree/master/04)
 
