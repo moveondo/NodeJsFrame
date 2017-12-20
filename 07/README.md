@@ -77,8 +77,8 @@ app.listen(3000);
 
 Koa-router实例提供一系列动词方法，即一种HTTP动词对应一种方法。典型的动词方法有以下五种。
 
-> router.get()
-> router.post()
-> router.put()
-> router.del()
-> router.patch()
+> router.get()  
+> router.post()  
+> router.put()  
+> router.del()  
+> router.patch()  
