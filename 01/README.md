@@ -5,7 +5,8 @@ Express是目前最流行的基于Node.js的Web开发框架，可以快速地搭
 
 Express上手非常简单，首先新建一个项目目录，假定叫做hello-world。
 
-$ mkdir hello-world
+>$ mkdir hello-world
+
 进入该目录，新建一个package.json文件，内容如下。
 ```
 {
@@ -24,7 +25,7 @@ $ mkdir hello-world
 
 然后，就可以安装了。
 
-$ npm install
+>$ npm install
 
 执行上面的命令以后，在项目根目录下，新建一个启动文件，假定叫做index.js。
 
@@ -57,7 +58,8 @@ app.listen(3000);
 
 然后，在命令行下运行启动脚本，就可以在浏览器中访问项目网站了。
 
-$ node index
+>$ node index
+
 上面代码会在本机的3000端口启动一个网站，网页显示Hello World。
 
 启动脚本index.js的app.get方法，用于指定不同的访问路径所对应的回调函数，这叫做“路由”（routing）。上面代码只指定了根目录的回调函数，因此只有一个路由记录。实际应用中，可能有多个路由记录。
