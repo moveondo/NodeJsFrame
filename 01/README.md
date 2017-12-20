@@ -38,7 +38,7 @@ app.listen(8080);
 ```
 然后，运行上面的启动脚本。
 
-< $ node index
+>$ node index
 
 现在就可以访问http://localhost:8080，它会在浏览器中打开当前目录的public子目录（严格来说，是打开public目录的index.html文件）。如果public目录之中有一个图片文件my_image.png，那么可以用http://localhost:8080/my_image.png访问该文件。
 
